@@ -10,7 +10,7 @@ If you would like, you can support the project here!\
 
 # Overview
 
-Termix Desktop is the connector app to your main Termix instance. This repository does not contain the Electron source code, its only purpose is for versioning and installing.
+Termix Desktop is the connector app to your main Termix instance. This repository does not contain the Electron source code; its only purpose is for versioning and installing. The desktop app pulls its version from this repository in case the regular web/server version needs an update that the Desktop does not need.
 
 # Planned Features
 
