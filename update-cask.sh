@@ -2,7 +2,7 @@
 set -e
 
 REPO="Termix-SSH/Termix"
-CASK_FILE="$(dirname "$0")/termix.rb"
+CASK_FILE="$(dirname "$0")/Casks/termix.rb"
 
 LATEST_VERSION=$(gh release list --repo "$REPO" --limit 1 --json tagName --jq '.[0].tagName' | sed 's/release-//' | sed 's/-tag//')
 
